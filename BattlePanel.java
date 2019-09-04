@@ -50,9 +50,9 @@ public class BattlePanel extends JPanel
       myBuffer = myImage.getGraphics();      
       jim = new Ship(100, 400, 0);
       jonah = new Ship(900, 400, 180); 
-      timer = new Timer(1, new Listener1());
+      timer = new Timer(8, new Listener1());
       timer.start();  
-      timer1 = new Timer(175, new Listener2());
+      timer1 = new Timer(120, new Listener2());
       timer1.start();
       addKeyListener(new Key());
       setFocusable(true);

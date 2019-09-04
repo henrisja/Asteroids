@@ -11,8 +11,6 @@
          frame.setLocation(175, 150);
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame.setContentPane(new MainMenuPanel());
-         //frame.setContentPane(new AsteroidsPanel());
-         //frame.setUndecorated(true);    
          frame.setVisible(true);
       }
    }

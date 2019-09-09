@@ -87,7 +87,7 @@
          {
             Laser laze = new Laser((int)jim.getX(), (int)jim.getY(), jim.getDir());
             arr.add(laze);
-            laze.fire();
+            laze.fire(jim.getdx(), jim.getdy());
             scoreL.updateDown();
          }
       }    

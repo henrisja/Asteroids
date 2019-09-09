@@ -98,12 +98,12 @@ public class Laser
    // chooses a random (x,y) location.  Bumper stays entirely in the window.
     		
    			   
-   public void fire()
+   public void fire(double startDx, double startDy)
    {
-      setDx(7*(Math.cos(getDir() * Math.PI/180)));
-      setDy(7*(Math.sin(getDir() * Math.PI/180)));
-   }    
-   public void update()
+      setDx((7*(Math.cos(getDir() * Math.PI/180)) + startDx));
+      setDy((7*(Math.sin(getDir() * Math.PI/180)) + startDy));
+   }     
+   public void update() 
    {
       setX(getX() + getdx());
       setY(getY() + getdy());

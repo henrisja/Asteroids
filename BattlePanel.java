@@ -87,14 +87,14 @@ public class BattlePanel extends JPanel
       Laser laze = new Laser((int)jim.getX(), (int)jim.getY(), jim.getDir());
       jimArr.add(laze);
       laze.setRadius(7.5);
-      laze.fire();
+      laze.fire(jim.getdx(), jim.getdy());
    }    
    public void laser1()
    {
       Laser lazer = new Laser((int)jonah.getX(), (int)jonah.getY(), jonah.getDir());
       jonahArr.add(lazer);
       lazer.setRadius(7.5);
-      lazer.fire();
+      lazer.fire(jonah.getdx(), jonah.getdy());
    }
    public void paintComponent(Graphics g)
    {

@@ -114,7 +114,7 @@ public class MainMenuPanel extends JPanel
    {
       public void actionPerformed(ActionEvent e)
       {
-         JOptionPane.showMessageDialog(null, "You have been selected to pilot a ship through the cosmos. You must avoid asteroids at all costs. Avoid the asteroids by doging and shooting them, survive as long as you can! \n In order to pilot your ship you will use the up arrow to move your ship in the direction it is facing. \n The left and right arrows will be used to spin your ship and the space button to launch a laser. \n If you choose BATTLE you can dogfight on the same keyboeard. \n  If you choose Battle then the left player uses W,A,D to move and space to launch a laser, the right player uses the arrows to move and shift to launch a laser. \n To quit hit end in JGrasp.\n Good luck pilot.");
+         JOptionPane.showMessageDialog(null, "You have been selected to pilot a ship through the cosmos. You must avoid asteroids at all costs. Avoid the asteroids by doging and shooting them, survive as long as you can! \n In order to pilot your ship you will use the up arrow to move your ship in the direction it is facing. \n The left and right arrows will be used to spin your ship and the space button to launch a laser. \n If you choose BATTLE you can dogfight on the same keyboeard. \n  If you choose Battle then the left player uses W,A,D to move and space to launch a laser, the right player uses the arrows to move and shift to launch a laser.");
       }
    }
    private class Listener4 implements ActionListener
